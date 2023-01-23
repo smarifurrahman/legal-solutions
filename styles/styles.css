@@ -11,8 +11,16 @@
     background-color: #F3F3F3 !important;
 }
 
+.legal-bg-gradient {
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
 .legal-white-dark {
     color: #E7E7E7 !important;
+}
+
+.legal-gray-text {
+    color: #414040 !important;
 }
 
 .legal-font-title {
@@ -25,7 +33,13 @@
     color: #707070;
 }
 
+::placeholder, input, textarea, textarea:focus, input:focus, .accordion-body {
+    color: #707070 !important;
+  }
 
+textarea {
+    resize: none;
+}
 
 /* banner */
 #banner {
@@ -39,10 +53,6 @@
 }
 
 /* The Legal Practice Area */
-.legal-bg-gradient {
-    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
-}
-
 .legal-img-72 {
     width: 70px;
     height: 72px;
@@ -71,4 +81,10 @@
     background-image: url('../images/slider-3.jpg');
     background-size: cover;
     background-position: center;
+}
+
+/* contact us */
+.legal-contact-icon {
+    height: 40px;
+    width: 40px;
 }
