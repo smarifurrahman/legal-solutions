@@ -3,17 +3,32 @@
 }
 
 .legal-text-black {
-    color: #414040;
+    color: #414040 !important;
 }
 
 .legal-text-gray {
     color: #707070 !important;
 }
 
+.legal-white-dark {
+    color: #E7E7E7 !important;
+}
+
 .legal-font-title {
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', serif !important;
 }
 
 .legal-font-description {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.legal-h-500 {
+    height: 500px !important;
+}
+
+/* banner */
+#banner {
+    background-image: url('../images/banner.png') !important;
+    background-position: center !important;
+    background-size: cover !important;
 }
