@@ -320,12 +320,9 @@
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body px-5 py-4">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox
+                                    was designed for layout in one dimension - either a row or a column. Grid was
+                                    designed for two-dimensional layout - rows, and columns at the same time.
                                 </div>
                             </div>
                         </div>
@@ -336,18 +333,20 @@
                                     class="accordion-button collapsed legal-bg-gradient px-5 py-4 rounded-4 fw-bold legal-gray-text"
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                     aria-expanded="false" aria-controls="collapseTwo">
-                                    Accordion Item #2
+                                    What is the purpose of Media Query ?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body px-5 py-4">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    Media queries can modify the appearance (and even behavior) or a website or app
+                                    based on a matched set of conditions about the user’s device, browser or system
+                                    settings. <br>
+                                    CSS Media queries are a way to target browser by certain characteristics, features,
+                                    and user preferences, then apply styles or run other code based on those things.
+                                    Perhaps the most common media queries in the world are those that target particular
+                                    viewport ranges and apply custom styles, which birthed the whole idea of responsive
+                                    design.
                                 </div>
                             </div>
                         </div>
@@ -358,18 +357,24 @@
                                     class="accordion-button collapsed legal-bg-gradient px-5 py-4 rounded-4 fw-bold legal-gray-text"
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                     aria-expanded="false" aria-controls="collapseThree">
-                                    Accordion Item #3
+                                    What is CSS Box Model ?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body px-5 py-4">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    In CSS, the term "box model" is used when talking about design and layout. <br>
+                                    The CSS box model is essentially a box that wraps around every HTML element. It
+                                    consists of: margins, borders, padding, and the actual content. <br>
+                                    Explanation of the different parts:
+                                    <ul>
+                                        <li>Content - The content of the box, where text and images appear</li>
+                                        <li>Padding - Clears an area around the content. The padding is transparent</li>
+                                        <li>Border - A border that goes around the padding and content</li>
+                                        <li>Margin - Clears an area outside the border. The margin is transparent</li>
+                                    </ul>
+                                    The box model allows us to add a border around elements, and to define space between
+                                    elements.
                                 </div>
                             </div>
                         </div>
@@ -380,18 +385,38 @@
                                     class="accordion-button collapsed legal-bg-gradient px-5 py-4 rounded-4 fw-bold legal-gray-text"
                                     type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                     aria-expanded="false" aria-controls="collapseFour">
-                                    Accordion Item #4
+                                    What are Semantic Elements?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body px-5 py-4">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    A semantic element clearly describes its meaning to both the browser and the
+                                    developer.
+                                    Examples of non-semantic elements: <code>&lt;div&gt;</code> and
+                                    <code>&lt;span&gt;</code> - Tells nothing about its content.
+                                    Examples of semantic elements: <code>&lt;form&gt;</code>,
+                                    <code>&lt;table&gt;</code>, and <code>&lt;article&gt;</code> - Clearly defines its
+                                    content.
+                                    In HTML there are some semantic elements that can be used to define different parts of a web page:
+                                    <div class="d-flex">
+                                        <ul>
+                                            <li><code>&lt;article&gt;</code></li>
+                                            <li><code>&lt;aside&gt;</code></li>
+                                            <li><code>&lt;details&gt;</code></li>
+                                            <li><code>&lt;figcaption&gt;</code></li>
+                                            <li><code>&lt;figure&gt;</code></li>
+                                            <li><code>&lt;footer&gt;</code></li>
+                                        </ul>
+                                        <ul class="ms-3">
+                                            <li><code>&lt;header&gt;</code></li>
+                                            <li><code>&lt;main&gt;</code></li>
+                                            <li><code>&lt;mark&gt;</code></li>
+                                            <li><code>&lt;nav&gt;</code></li>
+                                            <li><code>&lt;section&gt;</code></li>
+                                            <li><code>&lt;summary&gt;</code></li>
+                                        </ul>
+                                    </div>          
                                 </div>
                             </div>
                         </div>
