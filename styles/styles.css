@@ -57,9 +57,10 @@ textarea {
 
 /* banner */
 #banner {
-    background-image: url('../images/banner.png') !important;
-    background-position: center !important;
-    background-size: cover !important;
+    background: url('../images/banner.png'), linear-gradient(180deg, #3f3f3f 0%, rgba(78, 78, 78, 0) 100%);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
 }
 
 .legal-h-500 {
@@ -80,21 +81,24 @@ textarea {
 }
 
 .legal-slider-img-1 {
-    background-image: url('../images/slider-1.jpg');
+    background: url('../images/slider-1.jpg'), rgba(71, 71, 71, 0.8);
     background-size: cover;
     background-position: center;
+    background-blend-mode: multiply;
 }
 
 .legal-slider-img-2 {
-    background-image: url('../images/slider-2.jpg');
+    background: url('../images/slider-2.jpg'), rgba(71, 71, 71, 0.8);
     background-size: cover;
     background-position: center;
+    background-blend-mode: multiply;
 }
 
 .legal-slider-img-3 {
-    background-image: url('../images/slider-3.jpg');
+    background: url('../images/slider-3.jpg'), rgba(71, 71, 71, 0.8);
     background-size: cover;
     background-position: center;
+    background-blend-mode: multiply;
 }
 
 /* contact us */
