@@ -3,6 +3,16 @@
     margin-top: 120px;
 }
 
+.legal-py-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.legal-title-section {
+    max-width: 650px;
+    width: 80%;
+}
+
 .legal-golden-background {
     background-color: #B68C5A !important;
 }
@@ -87,4 +97,13 @@ textarea {
 .legal-contact-icon {
     height: 40px;
     width: 40px;
+}
+
+/* footer */
+.legal-bg-footer {
+    background: #111111 !important;
+}
+
+.legal-text-footer {
+    color: #CFCFCF !important;
 }
